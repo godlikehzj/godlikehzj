@@ -18,6 +18,7 @@
     <modules>
         <module>dubbo_consumer</module>
         <module>dubbo_provider</module>
+        <module>common</module>
     </modules>
 
     <dependencyManagement>
