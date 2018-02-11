@@ -45,7 +45,7 @@ public class DemoHandler implements InvocationHandler{
         proxyDemo.demoTest("this is test");
         //动态代理源码最终调用以下方法生产代理类，通过defineClass0成功代理类实例，具体可参考反编译的代理类
         byte[] classFile = ProxyGenerator.generateProxyClass("$Proxy0", proxyDemo.getClass().getInterfaces());
-        String path = "/Users/godlikehzj/Documents/java/godlikehzj/common/src/main/java/com/godlikehzj/proxy/demo.class";
+        String path = "./demo.class";
         FileOutputStream out = null;
 
         try {
